@@ -1,5 +1,4 @@
-﻿using api_biblioteca;
-using Bibliotech_API.Data;
+﻿using Bibliotech_API.Data;
 using Bibliotech_API.Models.Entities;
 
 namespace Bibliotech_API.Repositories;
