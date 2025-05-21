@@ -1,12 +1,12 @@
-using api_biblioteca.Repositories;
-using api_biblioteca.Services;
+using Bibliotech_API.Repositories;
+using Bibliotech_API.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 
-builder.Services.AddScoped<AutorService>();
-builder.Services.AddScoped<AutorRepository>();
+builder.Services.AddScoped<AuthorService>();
+builder.Services.AddScoped<AuthorRepository>();
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

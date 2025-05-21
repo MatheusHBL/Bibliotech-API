@@ -1,8 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace api_biblioteca.Models.Entities;
+namespace Bibliotech_API.Models.Entities;
 
-public class AutorEntity
+public class AuthorEntity
 {
     [Key]
     public int id_autor { get; set; }
