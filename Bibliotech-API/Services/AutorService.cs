@@ -1,9 +1,9 @@
-﻿using api_biblioteca.Models.DTO;
-using api_biblioteca.Models.Entities;
-using api_biblioteca.Repositories;
+﻿using api_biblioteca.Repositories;
 using AutoMapper;
+using Bibliotech_API.Model.Dtos;
+using Bibliotech_API.Model.Entities;
 
-namespace api_biblioteca.Services;
+namespace Bibliotech.Services;
 
 public class AutorService
 {

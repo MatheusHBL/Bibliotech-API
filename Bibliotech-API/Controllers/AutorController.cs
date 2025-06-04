@@ -1,5 +1,5 @@
-﻿using api_biblioteca.Models.DTO;
-using api_biblioteca.Services;
+﻿using api_biblioteca.Services;
+using Bibliotech_API.Model.Dtos;
 using Microsoft.AspNetCore.Mvc;
 
 namespace api_biblioteca.Controllers;

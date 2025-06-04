@@ -1,13 +1,14 @@
-﻿using api_biblioteca.Models.Entities;
+﻿using Bibliotech_API;
+using Bibliotech_API.Model.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace api_biblioteca.Repositories;
 
 public class AutorRepository
 {
-    private readonly BibliotecaContext _context;
+    private readonly Context _context;
 
-    public AutorRepository(BibliotecaContext blibliotecaContext)
+    public AutorRepository(Context blibliotecaContext)
     {
         _context = blibliotecaContext;
     }

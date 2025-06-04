@@ -3,12 +3,12 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Bibliotech_API.Models.Entities;
 
-[Table("autor")]
-public class AutorEntity
+[Table("categoria")]
+public class CategoriaEntity
 {
     [Key]
     public int Id { get; set; }
 
     [Required]
-    public required string Nome { get; set; }
+    public required string Descricao { get; set; }
 }

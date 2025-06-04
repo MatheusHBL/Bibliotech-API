@@ -1,11 +1,11 @@
-﻿using api_biblioteca.Models.Entities;
+﻿using Bibliotech_API.Model.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace api_biblioteca;
+namespace Bibliotech_API;
 
-public class BibliotecaContext : DbContext
+public class Context : DbContext
 {
-    public BibliotecaContext(DbContextOptions options) : base(options)
+    public Context(DbContextOptions options) : base(options)
     {
         AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
         AppContext.SetSwitch("Npgsql.DisableDateTimeInfinityConversions", true);

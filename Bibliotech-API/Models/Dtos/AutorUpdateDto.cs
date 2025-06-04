@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace api_biblioteca.Models.DTO;
+namespace Bibliotech_API.Model.Dtos;
 
 public class AutorUpdateDto : AutorCreateDto
 {
