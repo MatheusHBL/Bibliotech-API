@@ -11,5 +11,5 @@ public class BibliotechContext : DbContext
         AppContext.SetSwitch("Npgsql.DisableDateTimeInfinityConversions", true);
     }
 
-    public DbSet<AuthorEntity> Autor { get; set; }
+    public DbSet<AutorEntity> Autor { get; set; }
 }

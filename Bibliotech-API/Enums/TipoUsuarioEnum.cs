@@ -1,9 +1,9 @@
-﻿namespace Bibliotech_API.Enums
+﻿namespace Bibliotech_API.Enums;
+
+public enum TipoUsuarioEnum
 {
-    public enum TipoUsuarioEnum
-    {
-        Administrador,
-        Funcionario,
-        Cliente,
-    }
+    Administrador,
+    Funcionario,
+    Cliente,
 }
+

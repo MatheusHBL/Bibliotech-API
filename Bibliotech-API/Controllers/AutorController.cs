@@ -1,8 +1,8 @@
-﻿using api_biblioteca.Services;
-using Bibliotech_API.Model.Dtos;
+﻿using Bibliotech_API.Models.Dtos;
+using Bibliotech_API.Services;
 using Microsoft.AspNetCore.Mvc;
 
-namespace api_biblioteca.Controllers;
+namespace Bibliotech_API.Controllers;
 
 [ApiController]
 [Route("autor")]

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\2019202049007-8\\source\\repos\\Bibliotech-API\\Bibliotech-API\\Bibliotech-API.csproj": {}
+    "C:\\Users\\2019202049007-8\\Source\\Repos\\MatheusHBL\\Bibliotech-API\\Bibliotech-API\\Bibliotech-API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\2019202049007-8\\source\\repos\\Bibliotech-API\\Bibliotech-API\\Bibliotech-API.csproj": {
+    "C:\\Users\\2019202049007-8\\Source\\Repos\\MatheusHBL\\Bibliotech-API\\Bibliotech-API\\Bibliotech-API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\2019202049007-8\\source\\repos\\Bibliotech-API\\Bibliotech-API\\Bibliotech-API.csproj",
+        "projectUniqueName": "C:\\Users\\2019202049007-8\\Source\\Repos\\MatheusHBL\\Bibliotech-API\\Bibliotech-API\\Bibliotech-API.csproj",
         "projectName": "Bibliotech-API",
-        "projectPath": "C:\\Users\\2019202049007-8\\source\\repos\\Bibliotech-API\\Bibliotech-API\\Bibliotech-API.csproj",
+        "projectPath": "C:\\Users\\2019202049007-8\\Source\\Repos\\MatheusHBL\\Bibliotech-API\\Bibliotech-API\\Bibliotech-API.csproj",
         "packagesPath": "C:\\Users\\2019202049007-8\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\2019202049007-8\\source\\repos\\Bibliotech-API\\Bibliotech-API\\obj\\",
+        "outputPath": "C:\\Users\\2019202049007-8\\Source\\Repos\\MatheusHBL\\Bibliotech-API\\Bibliotech-API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -56,11 +56,11 @@
             },
             "EFCore.NamingConventions": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[8.0.3, )"
             },
-            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+            "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
-              "version": "[9.0.4, )"
+              "version": "[8.0.3, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
