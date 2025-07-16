@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Bibliotech-API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f2afe7bc14e53a36e819fa0421b0855680996fac")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+550a5d39a7acf2d9be455adb30182bdd35e9bb64")]
 [assembly: System.Reflection.AssemblyProductAttribute("Bibliotech-API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Bibliotech-API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

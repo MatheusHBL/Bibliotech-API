@@ -104,16 +104,28 @@ public class ApplicationDbContext : DbContext
         modelBuilder.Entity<Livro>()
             .HasMany(l => l.Autores)
             .WithMany(a => a.Livros)
-            .UsingEntity(j => j.ToTable("livro_autor"));
+            .UsingEntity("livro_autor",
+                r => r.HasOne(typeof(Autor)).WithMany().HasForeignKey("id_autor"),
+                l => l.HasOne(typeof(Livro)).WithMany().HasForeignKey("id_livro"),
+                j => j.HasKey("id_autor", "id_livro")
+            );
 
         modelBuilder.Entity<Livro>()
             .HasMany(l => l.Categorias)
             .WithMany(c => c.Livros)
-            .UsingEntity(j => j.ToTable("livro_categoria"));
+            .UsingEntity("livro_categoria",
+            r => r.HasOne(typeof(Categoria)).WithMany().HasForeignKey("id_categoria"),
+            l => l.HasOne(typeof(Livro)).WithMany().HasForeignKey("id_livro"),
+            j => j.HasKey("id_categoria", "id_livro")
+        );
 
         modelBuilder.Entity<Usuario>()
             .HasMany(u => u.Perfis)
             .WithMany(p => p.Usuarios)
-            .UsingEntity(j => j.ToTable("usuario_perfil"));
+            .UsingEntity("usuario_perfil",
+                r => r.HasOne(typeof(Perfil)).WithMany().HasForeignKey("id_perfil"),
+                l => l.HasOne(typeof(Usuario)).WithMany().HasForeignKey("id_usuario"),
+                j => j.HasKey("id_perfil", "id_usuario")
+            );
     }
 }

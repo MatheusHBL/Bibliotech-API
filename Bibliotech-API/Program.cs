@@ -17,6 +17,7 @@ var builder = WebApplication.CreateBuilder(args);
 var connection = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseMySql(connection, new MySqlServerVersion(ServerVersion.AutoDetect(connection)))
+        .UseSnakeCaseNamingConvention()
 );
 
 builder.Services.AddControllers();
